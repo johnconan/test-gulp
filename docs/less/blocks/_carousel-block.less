@@ -1,0 +1,130 @@
+.carousel-image {
+	margin-bottom: 30px;
+	overflow: hidden;
+	background-image: url('../img/placeholder/placeholder-carousel.jpg');
+	background-position: center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	@media (min-width:768px) {
+		height: 287px;
+		margin-bottom: 0px;
+	}
+	@media (min-width:992px) {
+		height: 386.5px;
+	}
+	@media (min-width:1200px) {
+		height: 435px;
+	}
+}
+
+.clothing--men {
+	background-image: url('../img/clothing/for-man.jpg');
+	background-color: #EDEDED;
+}
+	
+.clothing {
+	display: block;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 136px;
+	margin-bottom: 15px;
+		-webkit-transition: all .7s;
+	       -moz-transition: all .7s;
+	            transition: all .7s;
+	&:last-child {
+		margin-bottom: 0px;
+	}
+		@media (min-width: 992px){
+		height: 186px;
+	}
+	@media (min-width: 1200px) {
+		height: 210px;
+		padding-top: 23px;
+	}
+	&:hover {
+		-webkit-background-size: 170%;
+		     -o-background-size: 170%;
+		        background-size: 170%;
+		        text-decoration: none;
+		-webkit-transition: all .7s;
+	       -moz-transition: all .7s;
+	            transition: all .7s;
+	}
+}
+
+.clothing--women {
+	background-image: url('../img/clothing/for-woman.jpg');
+	background-color: #EDEDED;
+}
+
+.clothing__gray {	
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 38px;
+		@media (min-width: 1200px) {
+			height: 168px;
+			width: 315px;
+	}
+}
+
+.clothing__title {
+	width: 270px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 14px 0;
+	background-color: rgba(111,111,111,0.5);
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	text-transform: uppercase;
+	border: 1px solid #8f8f8f;
+	text-align: center;
+		@media (min-width: 768px) {
+		width: 170px;
+		font-size: 12px;
+	}
+		@media (min-width: 992px){
+		width: 250px;
+		font-size: 20px;
+		margin-top: 20px;
+	}
+		@media (min-width: 1200px) {
+		width: 275px;
+		padding: 14px 0;
+		font-size: 24px;
+		margin-top: 0;
+	}
+	&:hover, &:focus, &:active {
+		padding: 13px 0;
+		border: 2px solid #FFF;
+		-webkit-transition: 0.3s all;
+		-moz-transition: 0.3s all;
+		-ms-transition: 0.3s all;
+		-o-transition: 0.3s all;
+		transition: 0.3s all;
+	}
+}
+
+.clothing__collection {
+	display: none;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+		@media (min-width: 768px) {
+		font-size: 8px;
+		display: block;
+	}
+		@media (min-width: 1200px) {
+		font-size: 14px;
+	}
+}
+
